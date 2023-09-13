@@ -1,0 +1,7 @@
+cd ../langchainjs
+yarn build
+cd ../d1-memory-langchainjs-example
+rm -rf node_modules
+pnpm install
+npx wrangler deploy
+npx wrangler tail

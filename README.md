@@ -1,0 +1,1 @@
+Example application showing how to use a Langchain chain with D1's memory store. The relevant code can be found in `worker.js`. Note that the Langchain integration will instantiate a new table and manage it for you -- all you need to do is set up your own D1 database with relevant `database_id`, as seen in `wrangler.toml`.
