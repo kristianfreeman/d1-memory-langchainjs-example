@@ -2,7 +2,7 @@ import { BufferMemory } from "langchain/memory"
 import { CloudflareD1MessageHistory } from "langchain/stores/message/cloudflare_d1"
 import { ChatOpenAI } from "langchain/chat_models/openai"
 import { ConversationChain } from "langchain/chains"
-import Hono from 'hono'
+import { Hono } from 'hono'
 
 const app = new Hono()
 

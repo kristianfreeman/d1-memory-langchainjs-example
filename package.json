@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "hono": "^3.6.0",
-    "langchain": "file:../langchainjs/langchain"
+    "langchain": "0.0.152"
   }
 }
