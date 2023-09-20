@@ -1,5 +1,5 @@
 name = "d1-memory-langchainjs-example"
-main = "src/worker.js"
+main = "src/worker.ts"
 compatibility_date = "2023-09-13"
 
 [[d1_databases]]
